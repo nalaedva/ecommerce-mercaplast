@@ -1,8 +1,14 @@
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Template from "./template/Template";
+import Landing from "./landing/Landing";
 
 function App() {
   return (
-    <h1>E-commerce Mercaplast</h1>
+    <>
+    <Template />
+     <Landing />
+     </>
   );
 }
 
